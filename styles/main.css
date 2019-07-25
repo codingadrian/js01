@@ -1,0 +1,54 @@
+
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+}
+
+.keys {
+  align-items: center;
+  background-image: url(../images/dancingBackground.jpg);
+  background-size: 100vw 100vh;
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+
+.key {
+  align-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid orange;
+  border-radius: 2px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 65px;
+  justify-content: center;
+  transition: all .07s;
+  width: 65px;
+}
+
+.playing{
+  border-color: orange;
+  box-shadow: 0 0 10px orange;
+  transform: scale(1.1);
+}
+
+
+kbd {
+  color: orange;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+span {
+  align-content: center;
+  display: block;
+}
